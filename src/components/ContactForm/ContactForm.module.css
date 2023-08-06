@@ -1,0 +1,41 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: snow;
+  max-width: 220px;
+  margin: 10px auto 25px auto;
+}
+
+.label {
+  display: block;
+  font-size: 18px;
+  padding: 10px;
+}
+.input {
+  display: block;
+  max-width: 440px;
+  margin-bottom: 15px;
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.form_button {
+  margin: 0 auto;
+
+  padding: 12px;
+  display: block;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: skyblue;
+  border: 2px solid black;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form_button:hover,
+.form_button:focus {
+  outline: none;
+  background-color: snow;
+  border: 2px solid skyblue;
+  color: skyblue;
+}
